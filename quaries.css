@@ -1,0 +1,170 @@
+/* 1344px(smaller desktop) */
+
+@media(max-width:84em)
+{
+    .hero
+    {
+        max-width: 120rem;
+    }
+    .heading-primary
+    {
+        font-size: 4.4rem;
+    }
+
+}
+/* 1200px (LandScape tablet)*/
+@media(max-width:75em)
+{
+html
+{
+    /* 9/16 */
+    font-size: 52.25%;
+}
+.grid
+{
+    column-gap: 4.2rem;
+    row-gap: 5.5rem;
+}
+.heading-secondry
+{
+    font-size: 3.6rem;
+}
+.heading-teritary
+{
+    font-size: 2.5rem;
+}
+.hero
+{
+    gap: 15px;
+    padding: 0,3.2rem;
+}
+.main-nav-list
+{
+    gap: 3.2rem;
+}
+}
+
+
+/* 944px(normal tablet) */
+@media(max-width:59rem)
+{
+    html
+    {
+        /* 8px/16px=0.5=50% */
+        font-size: 45%;
+    }
+    .hero{
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        
+    }
+    .hero-img
+    {
+        width: 60%;
+    }
+    .hero-text-box ,.hero-img-box
+    {
+        text-align: center;
+    }
+
+.logos img{
+
+    height: 2.4rem;
+}
+.step-number
+{
+    font-size: 7.4rem;
+}
+.cta
+{
+    grid-template-columns: 3fr 2fr;
+    height: 65rem;
+}
+.cta-form
+{
+
+    grid-template-columns: 1fr;
+}
+.section-cta
+{
+    margin: auto;
+}
+
+
+
+}
+
+
+/*  */
+
+.btn-mobile-nav
+{
+    display: block;
+}
+/* smaller tab(704px) */
+@media(max-width:44rem)
+{
+    .heading-secondry
+    {
+        margin-bottom: 4.6rem;
+        line-height: 25px;
+    }
+    .cta
+{
+    
+    height: 65rem;
+}
+}
+
+/* mobile-phone(592px) */
+
+@media(max-width:37rem)
+{
+    .grid-2-col
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .section-hero
+    {
+        padding: 2.4rem 0 6.4rem 0;
+    }
+    .hero{
+        /* grid-template-columns: 1fr; */
+        padding: 0 3.2rem;
+    }
+    .logos img
+    {
+        height: 1.2rem;
+    }
+    .btn
+    {
+       padding: 2.4rem 1.6rem; 
+    }
+    .hero-img
+    {
+        width: 80%;
+    }
+    .order-1
+{
+    grid-row:1
+}
+.order-5
+{
+    grid-row: 5;
+}
+    .cta
+    {
+        grid-template-columns: 1fr;
+        height: 105rem;
+    }
+    .cta-img-box
+    {
+        height: 35rem;
+        grid-row: 1;
+    }
+    .cta-text-box
+    {
+        padding: 3.2rem;
+    }
+}

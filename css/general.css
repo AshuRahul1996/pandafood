@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.test
+/* 1rem= default16px */
+{
+    background-color: red;
+    padding: 100px;
+    /* 10px*10rem=100 */
+    max-width:100em;
+}
+html{
+    /* font-size: 10px; */
+    /* 10/16px=.625=62.5% */
+    font-size: 62.5%;
+     
+}
+body
+{
+font-family: sans-serif;
+line-height: 1;
+font-weight: 400;
+color: #555;
+}
